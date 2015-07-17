@@ -1,0 +1,1616 @@
+{
+	"folder_history":
+	[
+		"/home/gassa/Paper/rtdroid-papers/asplos16",
+		"/home/gassa/Paper/rtdroid-papers/tmc_journal",
+		"/home/gassa/Paper/rtdroid-papers",
+		"/home/gassa/my-code/workspace_blog",
+		"/home/gassa/my-code/workspace_blog/octopress/_deploy"
+	],
+	"last_version": 3083,
+	"last_window_id": 57,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fram",
+						"frame=b"
+					],
+					[
+						"impl",
+						"implements"
+					],
+					[
+						"ro",
+						"rotate"
+					],
+					[
+						"fi",
+						"filename"
+					],
+					[
+						"len",
+						"len_data"
+					],
+					[
+						"st",
+						"str"
+					],
+					[
+						"to",
+						"total_sampling〔variable〕"
+					],
+					[
+						"nu",
+						"num"
+					],
+					[
+						"num",
+						"num〔variable〕"
+					],
+					[
+						"ser",
+						"serial_data"
+					],
+					[
+						"p",
+						"print"
+					],
+					[
+						"Li",
+						"Listener"
+					],
+					[
+						"PL",
+						"PLOT_DATA_SCATTER"
+					],
+					[
+						"PLot_S",
+						"PLOT_DATA_SUM_BY_NUM_NOISY"
+					],
+					[
+						"Fal",
+						"False〔variable〕"
+					],
+					[
+						"load",
+						"load_data〔variable〕"
+					],
+					[
+						"wc",
+						"wcet_data"
+					],
+					[
+						"PLOT_DATA_",
+						"PLOT_DATA_SCATTER"
+					],
+					[
+						"line",
+						"linespoints"
+					],
+					[
+						"ch",
+						"chmod〔function〕"
+					],
+					[
+						"app",
+						"append"
+					],
+					[
+						"xra",
+						"xrange_leon3"
+					],
+					[
+						"yra",
+						"yrange_leon3"
+					],
+					[
+						"yran",
+						"yrange_nexus〔variable〕"
+					],
+					[
+						"dat",
+						"data_list"
+					],
+					[
+						"da",
+						"data_list"
+					],
+					[
+						"loa",
+						"load_data"
+					],
+					[
+						"PLOT",
+						"PLOT_DATA_SCATTER"
+					],
+					[
+						"is",
+						"is_selected_plot"
+					],
+					[
+						"le",
+						"legend_list"
+					],
+					[
+						"T",
+						"True"
+					],
+					[
+						"file",
+						"filename"
+					],
+					[
+						"pa",
+						"path〔module〕"
+					],
+					[
+						"tot",
+						"total_sampling"
+					],
+					[
+						"ne",
+						"nexus"
+					],
+					[
+						"nex",
+						"nexus_s_yrange〔variable〕"
+					],
+					[
+						"f",
+						"filename"
+					],
+					[
+						"exp_",
+						"exp_leon3_noisy_serial"
+					],
+					[
+						"ex",
+						"exp_noisy_serial"
+					],
+					[
+						"pl",
+						"plot_serials"
+					],
+					[
+						"exp",
+						"exp_noisy_serial"
+					],
+					[
+						"fil",
+						"filelist"
+					],
+					[
+						"file_",
+						"file_splitter"
+					],
+					[
+						"cd",
+						"cdf_data"
+					],
+					[
+						"sa",
+						"save_data"
+					],
+					[
+						"ti",
+						"title"
+					],
+					[
+						"out",
+						"output_extension"
+					],
+					[
+						"ter",
+						"term"
+					],
+					[
+						"PLOT_",
+						"PLOT_SUM_BY_NUM_NOISY"
+					],
+					[
+						"PLOT_SU",
+						"PLOT_SUM_BY_NUM_NOISY〔variable〕"
+					],
+					[
+						"PLOT_D",
+						"PLOT_DATA_SUM_BY_NUM_NOISY"
+					],
+					[
+						"PLO",
+						"PLOT_CDF"
+					],
+					[
+						"po",
+						"point_color"
+					],
+					[
+						"pi",
+						"points"
+					],
+					[
+						"F",
+						"False"
+					],
+					[
+						"g",
+						"g('set"
+					],
+					[
+						"set",
+						"set_plot_points_data〔function〕"
+					],
+					[
+						"ind",
+						"index_str"
+					],
+					[
+						"x",
+						"x_idx"
+					],
+					[
+						"dir",
+						"directory"
+					],
+					[
+						"sub",
+						"subdir"
+					],
+					[
+						"plot_",
+						"plot_scatter"
+					],
+					[
+						"glo",
+						"glob〔module〕"
+					],
+					[
+						"his",
+						"hist_step"
+					],
+					[
+						"cdf",
+						"cdf_data"
+					],
+					[
+						"t",
+						"tuple"
+					],
+					[
+						"gen_cdf",
+						"gen_cdf_data_all〔function〕"
+					],
+					[
+						"gen",
+						"gen_cdf_data_by_type"
+					],
+					[
+						"bin",
+						"bin_width"
+					],
+					[
+						"h",
+						"histogram"
+					],
+					[
+						"gen_",
+						"gen_cdf_data〔function〕"
+					],
+					[
+						"plot",
+						"plot_data"
+					],
+					[
+						"1000",
+						"1000000"
+					],
+					[
+						"in",
+						"int〔class〕"
+					],
+					[
+						"pro",
+						"process_file"
+					],
+					[
+						"pr",
+						"print"
+					],
+					[
+						"if",
+						"ifmain	if __name__ == '__main__'"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Makefile/Make.sublime-build",
+							""
+						],
+						[
+							"Packages/Makefile/Make.sublime-build",
+							"Clean"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Primary Quick Build"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Choose Quick Build"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Clean up Files"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Makefile/Make.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 111.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Package Control: Install Package"
+					],
+					[
+						"shell",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"packge Contol: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Add Channel"
+					],
+					[
+						"Package install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 467.0
+			},
+			"console":
+			{
+				"height": 222.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"cmd: shell",
+					"clear",
+					"ls",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"clear",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/gassa/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/main.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup/challenges.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup/motivation.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/extending-android-real-time.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup/code-comparison.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/refs.bib",
+				"/home/gassa/rtdroid/rtdroid-exp/WindTurbineMonitor/experiment/plotscript.py",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/background-challenges.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/response_letter.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/response_letter.txt",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/evaluation.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/introduction.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/tmc_journal.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/sensor-architecture.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-sensor/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-msg/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/plot_sensor.py",
+				"/home/gassa/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/related.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/listings-line-bkg.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/Makefile.include",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/write-up",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-alarm/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/plot_alarm.py",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/evaluation.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/impl.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/conclusion.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/background_challenges.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/intro.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-sensor/nexus-s/avg/exp-sensor-gc-intension.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/plot_all.sh",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-sensor/nexus-s/avg/exp-sensor-computation-intension.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/leon3/avg/jpapbench-listener.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/leon3/avg/jpapbench-memory.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/motivation.tex",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Python2.sublime-build",
+				"/home/gassa/Documents/plot_all_line_type.py",
+				"/home/gassa/Documents/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-msg/tmc-new-results.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/nexus-s/cdf_all.tex",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-alarm/tmc-data-process.py",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/pldi/results/rtdroid-message-latency/plot_script.py",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-new-results.tex",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/easyplot/easyplot.py",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/easyplot/rtdroid-plot.py",
+				"/home/gassa/Paper/rtdroid-papers/pldi/newplots/baseline_w_heap_noise.gpl",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Python3.sublime-build",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Python.sublime-build",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/rtdroid-plot.py",
+				"/home/gassa/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/data-analysis.py",
+				"/home/gassa/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/nexus_jpapabench.sh",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/gassa/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+				"/home/gassa/Paper/rtdroid-papers/pldi/results/specjvm/plot_script.py",
+				"/usr/local/lib/python2.7/dist-packages/numpy/lib/npyio.py",
+				"/home/gassa/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 82.0,
+				"where_history":
+				[
+					"~/"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"Total Me",
+					"RawFloats",
+					"floatrow",
+					"fig:android-turbine-heapsize-1",
+					"yan:jtres:2013",
+					"cite{",
+					"cite{}",
+					"term_type",
+					"baseline",
+					"fig:android-turbine-heapsize-1",
+					"eval",
+					"java",
+					"yin:mobisys:2014",
+					"yin:",
+					"yinyan",
+					"},\n",
+					"xmlStyle",
+					"javaStyle",
+					"style=javaStyle",
+					"xmlStyle",
+					"javaStyle",
+					"frame=t",
+					"code",
+					"frame=b",
+					"Ph",
+					"\\st",
+					"yinedits",
+					"dominant",
+					"fig:thread-pool-vs-AEH-leon3",
+					"preemptive",
+					"plot_avg_",
+					"plot_avg",
+					"plot_",
+					"??",
+					"textwidth",
+					"fig:turbine-rtsj-base-task",
+					"minipage",
+					"style",
+					"caption",
+					"subfigure",
+					"minipage",
+					"multicols",
+					"black",
+					"number of ",
+					"number",
+					"low-priority thread",
+					"the Fig",
+					"affects",
+					"---",
+					"Nexus",
+					"standard deviation",
+					"fig:jpapbench-base-nexus",
+					"the Nexus S",
+					"Nexus",
+					"It was ob",
+					"it was ob",
+					"Nexus",
+					"the Nexus",
+					"\\lst",
+					"btLstInputEmph",
+					"<",
+					"btLstInputEmph",
+					"linebgrdcmd",
+					"btLstHL",
+					"linebackgroundcolor",
+					"\\color{gray}",
+					"color",
+					"Red",
+					"xcolor",
+					"linebackgroundheight",
+					"btLstHL",
+					"lstinline",
+					"\\bh",
+					"lst",
+					"xcolor",
+					"verbments",
+					"tikzmark",
+					"figure",
+					"ltset",
+					"center",
+					"/tcb/center",
+					"tcolorbox",
+					"tbl:codemetrics",
+					"provides a",
+					"provides a ",
+					"gen_scatter_data",
+					"process_raw_data",
+					"plot_data",
+					"leon3",
+					"repeat",
+					"leon3_yrange",
+					"subfig:jpapabench-leon3-comp-b",
+					"subfig:jpapabench-leon3-memory-b",
+					"subfig:jpapbench-nexus-memory-b",
+					"to do",
+					"yinedit",
+					"yinedits",
+					"plot_single_scatter",
+					"plot_s",
+					"leon3_yrange",
+					"plot_",
+					"exp_leon3_noisy_serial",
+					"exp_noisy_type",
+					"exp_nexus_noisy_serial",
+					"offset",
+					"en_cdf_data_all",
+					"gen_cdf_data_by_type",
+					"process_raw_data",
+					"print",
+					"serial_data",
+					"230000",
+					"print",
+					"printt",
+					"total_sampling",
+					"gen_cdf_data_by_num_noisy",
+					"hist_range",
+					"gen_cdf_data",
+					"print",
+					"have",
+					"real-",
+					"low-",
+					"low- ",
+					"per-",
+					"per- ",
+					"real-",
+					"domains",
+					"real-",
+					"real-time"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 33.0
+			},
+			"input":
+			{
+				"height": 30.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 246.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/Python2.sublime-build",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 273.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"fram",
+						"frame=b"
+					],
+					[
+						"impl",
+						"implements"
+					],
+					[
+						"ro",
+						"rotate"
+					],
+					[
+						"fi",
+						"filename"
+					],
+					[
+						"len",
+						"len_data"
+					],
+					[
+						"st",
+						"str"
+					],
+					[
+						"to",
+						"total_sampling〔variable〕"
+					],
+					[
+						"nu",
+						"num"
+					],
+					[
+						"num",
+						"num〔variable〕"
+					],
+					[
+						"ser",
+						"serial_data"
+					],
+					[
+						"p",
+						"print"
+					],
+					[
+						"Li",
+						"Listener"
+					],
+					[
+						"PL",
+						"PLOT_DATA_SCATTER"
+					],
+					[
+						"PLot_S",
+						"PLOT_DATA_SUM_BY_NUM_NOISY"
+					],
+					[
+						"Fal",
+						"False〔variable〕"
+					],
+					[
+						"load",
+						"load_data〔variable〕"
+					],
+					[
+						"wc",
+						"wcet_data"
+					],
+					[
+						"PLOT_DATA_",
+						"PLOT_DATA_SCATTER"
+					],
+					[
+						"line",
+						"linespoints"
+					],
+					[
+						"ch",
+						"chmod〔function〕"
+					],
+					[
+						"app",
+						"append"
+					],
+					[
+						"xra",
+						"xrange_leon3"
+					],
+					[
+						"yra",
+						"yrange_leon3"
+					],
+					[
+						"yran",
+						"yrange_nexus〔variable〕"
+					],
+					[
+						"dat",
+						"data_list"
+					],
+					[
+						"da",
+						"data_list"
+					],
+					[
+						"loa",
+						"load_data"
+					],
+					[
+						"PLOT",
+						"PLOT_DATA_SCATTER"
+					],
+					[
+						"is",
+						"is_selected_plot"
+					],
+					[
+						"le",
+						"legend_list"
+					],
+					[
+						"T",
+						"True"
+					],
+					[
+						"file",
+						"filename"
+					],
+					[
+						"pa",
+						"path〔module〕"
+					],
+					[
+						"tot",
+						"total_sampling"
+					],
+					[
+						"ne",
+						"nexus"
+					],
+					[
+						"nex",
+						"nexus_s_yrange〔variable〕"
+					],
+					[
+						"f",
+						"filename"
+					],
+					[
+						"exp_",
+						"exp_leon3_noisy_serial"
+					],
+					[
+						"ex",
+						"exp_noisy_serial"
+					],
+					[
+						"pl",
+						"plot_serials"
+					],
+					[
+						"exp",
+						"exp_noisy_serial"
+					],
+					[
+						"fil",
+						"filelist"
+					],
+					[
+						"file_",
+						"file_splitter"
+					],
+					[
+						"cd",
+						"cdf_data"
+					],
+					[
+						"sa",
+						"save_data"
+					],
+					[
+						"ti",
+						"title"
+					],
+					[
+						"out",
+						"output_extension"
+					],
+					[
+						"ter",
+						"term"
+					],
+					[
+						"PLOT_",
+						"PLOT_SUM_BY_NUM_NOISY"
+					],
+					[
+						"PLOT_SU",
+						"PLOT_SUM_BY_NUM_NOISY〔variable〕"
+					],
+					[
+						"PLOT_D",
+						"PLOT_DATA_SUM_BY_NUM_NOISY"
+					],
+					[
+						"PLO",
+						"PLOT_CDF"
+					],
+					[
+						"po",
+						"point_color"
+					],
+					[
+						"pi",
+						"points"
+					],
+					[
+						"F",
+						"False"
+					],
+					[
+						"g",
+						"g('set"
+					],
+					[
+						"set",
+						"set_plot_points_data〔function〕"
+					],
+					[
+						"ind",
+						"index_str"
+					],
+					[
+						"x",
+						"x_idx"
+					],
+					[
+						"dir",
+						"directory"
+					],
+					[
+						"sub",
+						"subdir"
+					],
+					[
+						"plot_",
+						"plot_scatter"
+					],
+					[
+						"glo",
+						"glob〔module〕"
+					],
+					[
+						"his",
+						"hist_step"
+					],
+					[
+						"cdf",
+						"cdf_data"
+					],
+					[
+						"t",
+						"tuple"
+					],
+					[
+						"gen_cdf",
+						"gen_cdf_data_all〔function〕"
+					],
+					[
+						"gen",
+						"gen_cdf_data_by_type"
+					],
+					[
+						"bin",
+						"bin_width"
+					],
+					[
+						"h",
+						"histogram"
+					],
+					[
+						"gen_",
+						"gen_cdf_data〔function〕"
+					],
+					[
+						"plot",
+						"plot_data"
+					],
+					[
+						"1000",
+						"1000000"
+					],
+					[
+						"in",
+						"int〔class〕"
+					],
+					[
+						"pro",
+						"process_file"
+					],
+					[
+						"pr",
+						"print"
+					],
+					[
+						"if",
+						"ifmain	if __name__ == '__main__'"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/gassa/Paper/rtdroid-papers/asplos16/writeup/motivation.tex",
+					"settings":
+					{
+						"buffer_size": 27437,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/home/gassa/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 1082,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Makefile/Make.sublime-build",
+							""
+						],
+						[
+							"Packages/Makefile/Make.sublime-build",
+							"Clean"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							""
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Primary Quick Build"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Choose Quick Build"
+						],
+						[
+							"Packages/LaTeXing/LaTeX.sublime-build",
+							"Clean up Files"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Makefile/Make.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 111.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Package Control: Install Package"
+					],
+					[
+						"shell",
+						"Set Syntax: Shell Script (Bash)"
+					],
+					[
+						"pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: in",
+						"Package Control: Install Package"
+					],
+					[
+						"packge Contol: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package",
+						"Package Control: Add Channel"
+					],
+					[
+						"Package install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 467.0
+			},
+			"console":
+			{
+				"height": 222.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"cmd: shell",
+					"clear",
+					"ls",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"clear",
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/gassa/Paper/rtdroid-papers/asplos16",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup"
+			],
+			"file_history":
+			[
+				"/home/gassa/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/main.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup/challenges.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup/motivation.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/extending-android-real-time.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/writeup/code-comparison.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/refs.bib",
+				"/home/gassa/rtdroid/rtdroid-exp/WindTurbineMonitor/experiment/plotscript.py",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/background-challenges.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/response_letter.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/response_letter.txt",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/evaluation.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/introduction.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/tmc_journal.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/sensor-architecture.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-sensor/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-msg/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/plot_sensor.py",
+				"/home/gassa/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/related.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/listings-line-bkg.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/Makefile.include",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/write-up",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-alarm/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/plot_alarm.py",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/evaluation.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/impl.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/conclusion.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/background_challenges.tex",
+				"/home/gassa/Paper/rtdroid-papers/asplos16/sections/intro.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-sensor/nexus-s/avg/exp-sensor-gc-intension.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/plot_all.sh",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/old_results/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-sensor/nexus-s/avg/exp-sensor-computation-intension.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/leon3/avg/jpapbench-listener.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/leon3/avg/jpapbench-memory.avg",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/sections/motivation.tex",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Python2.sublime-build",
+				"/home/gassa/Documents/plot_all_line_type.py",
+				"/home/gassa/Documents/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-msg/tmc-new-results.tex",
+				"/home/gassa/Paper/rtdroid-papers/tmc_journal/new-results/tmc-results-jpapabench/nexus-s/cdf_all.tex",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-alarm/tmc-data-process.py",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/tmc-data-process.py",
+				"/home/gassa/Paper/rtdroid-papers/pldi/results/rtdroid-message-latency/plot_script.py",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-new-results.tex",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/easyplot/easyplot.py",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/easyplot/rtdroid-plot.py",
+				"/home/gassa/Paper/rtdroid-papers/pldi/newplots/baseline_w_heap_noise.gpl",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Python3.sublime-build",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Python.sublime-build",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/rtdroid-plot.py",
+				"/home/gassa/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/data-analysis.py",
+				"/home/gassa/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/home/gassa/rtdroid/rtdroid-legacy/tmc-results-jpapabench/nexus_jpapabench.sh",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/gassa/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+				"/home/gassa/Paper/rtdroid-papers/pldi/results/specjvm/plot_script.py",
+				"/usr/local/lib/python2.7/dist-packages/numpy/lib/npyio.py",
+				"/home/gassa/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Plain text.sublime-settings",
+				"/home/gassa/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 82.0,
+				"where_history":
+				[
+					"~/"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"Total Me",
+					"RawFloats",
+					"floatrow",
+					"fig:android-turbine-heapsize-1",
+					"yan:jtres:2013",
+					"cite{",
+					"cite{}",
+					"term_type",
+					"baseline",
+					"fig:android-turbine-heapsize-1",
+					"eval",
+					"java",
+					"yin:mobisys:2014",
+					"yin:",
+					"yinyan",
+					"},\n",
+					"xmlStyle",
+					"javaStyle",
+					"style=javaStyle",
+					"xmlStyle",
+					"javaStyle",
+					"frame=t",
+					"code",
+					"frame=b",
+					"Ph",
+					"\\st",
+					"yinedits",
+					"dominant",
+					"fig:thread-pool-vs-AEH-leon3",
+					"preemptive",
+					"plot_avg_",
+					"plot_avg",
+					"plot_",
+					"??",
+					"textwidth",
+					"fig:turbine-rtsj-base-task",
+					"minipage",
+					"style",
+					"caption",
+					"subfigure",
+					"minipage",
+					"multicols",
+					"black",
+					"number of ",
+					"number",
+					"low-priority thread",
+					"the Fig",
+					"affects",
+					"---",
+					"Nexus",
+					"standard deviation",
+					"fig:jpapbench-base-nexus",
+					"the Nexus S",
+					"Nexus",
+					"It was ob",
+					"it was ob",
+					"Nexus",
+					"the Nexus",
+					"\\lst",
+					"btLstInputEmph",
+					"<",
+					"btLstInputEmph",
+					"linebgrdcmd",
+					"btLstHL",
+					"linebackgroundcolor",
+					"\\color{gray}",
+					"color",
+					"Red",
+					"xcolor",
+					"linebackgroundheight",
+					"btLstHL",
+					"lstinline",
+					"\\bh",
+					"lst",
+					"xcolor",
+					"verbments",
+					"tikzmark",
+					"figure",
+					"ltset",
+					"center",
+					"/tcb/center",
+					"tcolorbox",
+					"tbl:codemetrics",
+					"provides a",
+					"provides a ",
+					"gen_scatter_data",
+					"process_raw_data",
+					"plot_data",
+					"leon3",
+					"repeat",
+					"leon3_yrange",
+					"subfig:jpapabench-leon3-comp-b",
+					"subfig:jpapabench-leon3-memory-b",
+					"subfig:jpapbench-nexus-memory-b",
+					"to do",
+					"yinedit",
+					"yinedits",
+					"plot_single_scatter",
+					"plot_s",
+					"leon3_yrange",
+					"plot_",
+					"exp_leon3_noisy_serial",
+					"exp_noisy_type",
+					"exp_nexus_noisy_serial",
+					"offset",
+					"en_cdf_data_all",
+					"gen_cdf_data_by_type",
+					"process_raw_data",
+					"print",
+					"serial_data",
+					"230000",
+					"print",
+					"printt",
+					"total_sampling",
+					"gen_cdf_data_by_num_noisy",
+					"hist_range",
+					"gen_cdf_data",
+					"print",
+					"have",
+					"real-",
+					"low-",
+					"low- ",
+					"per-",
+					"per- ",
+					"real-",
+					"domains",
+					"real-",
+					"real-time"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/gassa/Paper/rtdroid-papers/asplos16"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/gassa/Paper/rtdroid-papers/asplos16/writeup/motivation.tex",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 27437,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9472,
+										9472
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 5556.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/gassa/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1082,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1078,
+										1078
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 431.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 33.0
+			},
+			"input":
+			{
+				"height": 30.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 246.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/Python2.sublime-build",
+			"position": "0,1,0,0,0,2326,436,2966,916,3840,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 273.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 52,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

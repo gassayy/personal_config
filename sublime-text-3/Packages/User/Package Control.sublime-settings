@@ -1,0 +1,16 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoWrap",
+		"Color Scheme - RSE",
+		"LaTeXing",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimePeek-R-help",
+		"SublimeREPL",
+		"Wrap Plus"
+	]
+}
