@@ -34,13 +34,13 @@ globalkeys = awful.util.table.join(globalbinds,
     awful.key({ modkey, "Control" }, "j", function () awful.screen.focus_relative( 1) end),
     awful.key({ modkey, "Control" }, "k", function () awful.screen.focus_relative(-1) end),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto),
---    awful.key({ modkey,           }, "Tab",
---        function ()
---            awful.client.focus.history.previous()
---            if client.focus then
---                client.focus:raise()
---            end
---        end),
+    awful.key({ modkey,           }, "Tab",
+        function ()
+            awful.client.focus.history.previous()
+            if client.focus then
+                client.focus:raise()
+            end
+        end),
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "w",      function () awful.util.spawn("firefox") end),
@@ -68,13 +68,16 @@ globalkeys = awful.util.table.join(globalbinds,
               end),
     -- Menubar
     awful.key({ modkey }, "p", function() menubar.show() end)
+    
 )
 
 clientkeys = awful.util.table.join(clientkeys,
     awful.key({ modkey,           }, "f",      function (c) c.fullscreen = not c.fullscreen  end),
     awful.key({ modkey, "Control" }, "space",  awful.client.floating.toggle                     ),
     awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end),
-    awful.key({ modkey,           }, "o",      awful.client.movetoscreen                        ),
+--    awful.key({ modkey,           }, "o",      awful.client.movetoscreen                        ),
+    awful.key({ modkey, "Control"   }, "o",      function(c) awful.client.movetoscreen(c,c.screen-1) end ),
+    awful.key({ modkey, "Control"   }, "p",      function(c) awful.client.movetoscreen(c,c.screen+1) end ),
     awful.key({ modkey,           }, "t",      function (c) c.ontop = not c.ontop            end),
     awful.key({ modkey,           }, "n",
         function (c)
