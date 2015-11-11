@@ -1,6 +1,34 @@
 {
+	"WrapPlus.break_long_words": false,
+	"WrapPlus.break_on_hyphens": false,
+	"added_words":
+	[
+		"Jpapabench",
+		"smartphone",
+		"nano",
+		"reusability",
+		"smartphones",
+		"bluetooth",
+		"Wi",
+		"Fi",
+		"timestamping",
+		"interoperation",
+		"apps",
+		"ashmem",
+		"serializability",
+		"timeslice",
+		"safepoint",
+		"Dalvik",
+		"safepoints",
+		"bytecode",
+		"bytecodes",
+		"app",
+		"lifecycle",
+		"timeslices"
+	],
 	"auto_complete": false,
 	"caret_style": "solid",
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -18,18 +46,23 @@
 		"env",
 		"env3"
 	],
-	"font_face": "Ubuntu Mono",
+	"font_face": "Consolas",
 	"font_options":
 	[
 		"subpixel_antialias",
-		"no_bold"
+		"no_bold",
+		"directwrite"
 	],
-	"font_size": 18.0,
+	"font_size": 13.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"ignored_words":
+	[
+		"sinaro"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
@@ -45,9 +78,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
-	"word_wrap": true,
-	"wrap_width": 80,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"WrapPlus.break_long_words": false,
-	"WrapPlus.break_on_hyphens": false,
+	"word_wrap": true,
+	"wrap_width": 80
 }
