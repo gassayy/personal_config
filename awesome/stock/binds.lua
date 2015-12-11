@@ -44,6 +44,10 @@ globalkeys = awful.util.table.join(globalbinds,
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "w",      function () awful.util.spawn("firefox") end),
+    awful.key({ modkey, "Control" }, "g",      function () awful.util.spawn("google-chrome") end),
+    awful.key({ modkey, "Control" }, "t",      function () awful.util.spawn("/home/gassa/Research/sublime_text_3/sublime_text") end),
+    awful.key({ modkey, "Control" }, "e",      function () awful.util.spawn("/home/gassa/Dev/eclipse/eclipse") end),
+    awful.key({ modkey, "Control" }, "d",      function () awful.util.spawn("/home/gassa/Dev/android-studio/bin/studio.sh") end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
 
