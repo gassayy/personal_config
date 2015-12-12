@@ -21,7 +21,7 @@ local myro  = require("myrc.myfunc")  -- run app as long it's not running alread
 local myerr = require("myrc.error")     -- error reporting
 
 -- VARIABLES
-terminal = "x-terminal-emulator"
+terminal = "gnome-terminal"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 configpath="/home/"..os.getenv("USER").."/.config/awesome/"
@@ -31,7 +31,7 @@ configpath="/home/"..os.getenv("USER").."/.config/awesome/"
 -- beautiful.init("/usr/share/awesome/themes/default/theme.lua")
 
 -- CUSTOM THEMES - pick name from themes/
-local theme = "zenburn-custom"
+local theme = "zenburn"
 beautiful.init(configpath .. "/themes/" .. theme ..  "/theme.lua")
 
 
@@ -70,12 +70,6 @@ require("stock.signals")
 require("settings.startup")
 
 -------------------------------- PLUGIN SECTION ------------------------
-
-
-
-
-
-
 -- wallpaper snippet
 local mywp = require("settings.wallpaper")
 
