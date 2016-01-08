@@ -20,7 +20,7 @@ local myro  = require("myrc.myfunc")  -- run app as long it's not running alread
 local myerr = require("myrc.error")     -- error reporting
 
 -- VARIABLES
-terminal = "x-terminal-emulator"
+terminal = "gnome-terminal"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 configpath="/home/"..os.getenv("USER").."/.config/awesome/"
@@ -32,6 +32,7 @@ configpath="/home/"..os.getenv("USER").."/.config/awesome/"
 -- CUSTOM THEMES - pick name from themes/
 local theme = "zenburn-custom"
 beautiful.init(configpath .. "/themes/" .. theme ..  "/theme.lua")
+
 
 -- KEYBINDED COMMANDS (see settings/custom_binds.lua)
 -- hibernate_cmd = "/usr/sbin/hibernate-ram"
@@ -50,7 +51,6 @@ require("settings.tags")
 require("settings.menus")
 
 -- Default wibox stuff (gentoo config)
-require("myrc.mywidget")
 require("stock.wiboxrc")
 
 -- Key && mouse bindings
@@ -68,11 +68,13 @@ require("stock.signals")
 -- STARTUP apps
 require("settings.startup")
 
--- Fix the gap at the bottom
-
 -------------------------------- PLUGIN SECTION ------------------------
+
+
+
+
+
 
 -- wallpaper snippet
 local mywp = require("settings.wallpaper")
-
 
