@@ -21,8 +21,23 @@ if not awful.util.file_readable(themes .. themename .. "/theme.lua") then
 end
 themedir      = themes .. themename
 
-theme.wallpaper = "/home/gassa/Pictures/382288.png"
+wallpaper1    = themedir .. "/background.jpg"
+wallpaper2    = themedir .. "/background.png"
+wallpaper3    = sharedthemes .. "/zenburn/zenburn-background.png"
+wallpaper4    = sharedthemes .. "/default/background.png"
+wpscript      = home .. "/.wallpaper"
 
+if awful.util.file_readable(wallpaper1) then
+  theme.wallpaper = wallpaper1
+elseif awful.util.file_readable(wallpaper2) then
+  theme.wallpaper = wallpaper2
+elseif awful.util.file_readable(wpscript) then
+  theme.wallpaper_cmd = { "sh " .. wpscript }
+elseif awful.util.file_readable(wallpaper3) then
+  theme.wallpaper = wallpaper3
+else
+  theme.wallpaper = wallpaper4
+end
 --}}}
 
 -- {{{ Styles
