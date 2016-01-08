@@ -9,10 +9,19 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      focus = awful.client.focus.filter,
                      keys = clientkeys,
-                     buttons = clientbuttons } },
+                     buttons = clientbuttons,
+                     size_hints_honor = false } },
         {
                 rule = { class = "Firefox"},
-                properties= { tag = tags[1][1] },
+                properties= { tag = tags[1][2] },
+        },
+        {
+                rule = { class = "sublime_text"},
+                properties= { tag = tags[1][3] },
+        },
+        {
+                rule = { class = "eclipse"},
+                properties= { tag = tags[1][4] },
         },
 }
 -- }}}

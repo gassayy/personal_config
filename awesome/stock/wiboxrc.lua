@@ -1,5 +1,6 @@
 local awful = require("awful")
 local wibox = require("wibox")
+local vicious = require("vicious")
 
 -- {{{ Wibox
 -- Create a textclock widget
@@ -46,11 +47,11 @@ mytasklist.buttons = awful.util.table.join(
                                           end),
                      awful.button({ }, 4, function ()
                                               awful.client.focus.byidx(1)
-                                              if client.focus then client.focus:raise() end
+                                              delay_raise()
                                           end),
                      awful.button({ }, 5, function ()
                                               awful.client.focus.byidx(-1)
-                                              if client.focus then client.focus:raise() end
+                                              delay_raise()
                                           end))
 
 for s = 1, screen.count() do
@@ -77,11 +78,15 @@ for s = 1, screen.count() do
     local left_layout = wibox.layout.fixed.horizontal()
     left_layout:add(mylauncher)
     left_layout:add(mytaglist[s])
+    left_layout:add(cpuicon)
+    left_layout:add(cpu)
     left_layout:add(mypromptbox[s])
 
     -- Widgets that are aligned to the right
     local right_layout = wibox.layout.fixed.horizontal()
     if s == 1 then right_layout:add(wibox.widget.systray()) end
+    right_layout:add(batpct) 
+    right_layout:add(mem)
     right_layout:add(mytextclock)
     right_layout:add(mylayoutbox[s])
 

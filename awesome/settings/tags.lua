@@ -22,20 +22,20 @@ layouts =
 tags = {}
 if screen.count() == 1 then
     tags1_1 = {
-               names  = { "[terminal]", "[web]", "[work]" },
+              names  = { "[terminal]", "[web]", "[work]" },
               layout = { layouts[2], layouts[2], layouts[2] }
               }
               tags[1] = awful.tag(tags1_1.names, 1, tags1_1.layout)
 else
 
     tags2_1 = {
-               names  = { "[terminal-1]", "[web-1]", "[work-1]" },
-               layout = { layouts[1], layouts[1], layouts[1] }
+               names  = { "[terminal-1]", "[web-1]", "[work-1]", "[dev-1]" },
+               layout = { layouts[2], layouts[2], layouts[2], layouts[2] }
               }
 
     tags2_2 = {
-              names  = { "[terminal-2]", "[web-2]", "[work-2]" },
-              layout = { layouts[1], layouts[1], layouts[1] }
+              names  = { "[terminal-2]", "[web-2]", "[work-2]", "[dev-2]" },
+              layout = { layouts[2], layouts[2], layouts[2], layouts[2] }
                }
 
               tags[1] = awful.tag(tags2_1.names, 1, tags2_1.layout)

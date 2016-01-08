@@ -12,19 +12,19 @@ root.buttons(awful.util.table.join(
 
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(globalbinds,
-    awful.key({ modkey,           }, "Left",   awful.tag.viewprev       ),
-    awful.key({ modkey,           }, "Right",  awful.tag.viewnext       ),
+    awful.key({ modkey,           }, "Right",   function () awful.tag.incmwfact( 0.01)    end),
+    awful.key({ modkey,           }, "Left",  function () awful.tag.incmwfact( -0.01)    end),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore),
 
     awful.key({ modkey,           }, "j",
         function ()
             awful.client.focus.byidx( 1)
-            if client.focus then client.focus:raise() end
+            delay_raise()
         end),
     awful.key({ modkey,           }, "k",
         function ()
             awful.client.focus.byidx(-1)
-            if client.focus then client.focus:raise() end
+            delay_raise()
         end),
     awful.key({ modkey,           }, "w", function () mymainmenu:show() end),
 
@@ -37,9 +37,7 @@ globalkeys = awful.util.table.join(globalbinds,
     awful.key({ modkey,           }, "Tab",
         function ()
             awful.client.focus.history.previous()
-            if client.focus then
-                client.focus:raise()
-            end
+            delay_raise()
         end),
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
@@ -47,7 +45,7 @@ globalkeys = awful.util.table.join(globalbinds,
     awful.key({ modkey, "Control" }, "g",      function () awful.util.spawn("google-chrome") end),
     awful.key({ modkey, "Control" }, "t",      function () awful.util.spawn("/home/gassa/Research/sublime_text_3/sublime_text") end),
     awful.key({ modkey, "Control" }, "e",      function () awful.util.spawn("/home/gassa/Dev/eclipse/eclipse") end),
-    awful.key({ modkey, "Control" }, "d",      function () awful.util.spawn("/home/gassa/Dev/android-studio/bin/studio.sh") end),
+    awful.key({ modkey, "Control" }, "d",      function () awful.util.spawn("/home/gassa/Dev/idea/bin/idea.sh") end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
 
@@ -134,7 +132,7 @@ for i = 1, 9 do
 end
 
 clientbuttons = awful.util.table.join(clientbuttons,
-    awful.button({ }, 1, function (c) client.focus = c; c:raise() end),
+    awful.button({ }, 1, delay_raise()),
     awful.button({ modkey }, 1, awful.mouse.client.move),
     awful.button({ modkey }, 3, awful.mouse.client.resize))
 

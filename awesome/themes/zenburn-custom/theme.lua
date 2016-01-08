@@ -38,6 +38,9 @@ elseif awful.util.file_readable(wallpaper3) then
 else
   theme.wallpaper = wallpaper4
 end
+
+theme.wallpaper = "/home/gassa/Pictures/382288.png"
+
 --}}}
 
 -- {{{ Styles

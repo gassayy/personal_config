@@ -1,6 +1,5 @@
--- AWESOME CONFIG
--- Author: Tomas Pruzina (tomas.pruzina@gmail.com)
--- Description: Awesome config, tested on Gentoo's awesome 3.5.1
+-- Author: Yin Yan (yinyan@buffalo.com)
+-- Description: Awesome config, tested on Ubuntu14.04 awesome 3.5.1
 
 -- Standard awesome library
 local gears = require("gears")
@@ -34,7 +33,6 @@ configpath="/home/"..os.getenv("USER").."/.config/awesome/"
 local theme = "zenburn-custom"
 beautiful.init(configpath .. "/themes/" .. theme ..  "/theme.lua")
 
-
 -- KEYBINDED COMMANDS (see settings/custom_binds.lua)
 -- hibernate_cmd = "/usr/sbin/hibernate-ram"
 -- mute_cmd = "/home/tomas/bin/mute"
@@ -52,6 +50,7 @@ require("settings.tags")
 require("settings.menus")
 
 -- Default wibox stuff (gentoo config)
+require("myrc.mywidget")
 require("stock.wiboxrc")
 
 -- Key && mouse bindings
@@ -69,13 +68,11 @@ require("stock.signals")
 -- STARTUP apps
 require("settings.startup")
 
+-- Fix the gap at the bottom
+
 -------------------------------- PLUGIN SECTION ------------------------
-
-
-
-
-
 
 -- wallpaper snippet
 local mywp = require("settings.wallpaper")
+
 

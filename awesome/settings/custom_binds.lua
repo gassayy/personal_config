@@ -2,6 +2,8 @@ local awful = require("awful")
 
 -- GLOBAL KEYBINDINGS
 globalkeys = awful.util.table.join(globalkeys,
+    --move floater
+    awful.key({ modkey }, "Up",    function () awful.client.moveresize(  0, -20,   0,   0) end),
     --MULTIMEDIA KEYS
     awful.key({ }, "XF86AudioRaiseVolume", function () awful.util.spawn(raise_volume_cmd) end),
     awful.key({ }, "XF86AudioLowerVolume", function () awful.util.spawn(lower_volume_cmd) end),
