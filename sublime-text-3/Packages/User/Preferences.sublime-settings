@@ -3,32 +3,27 @@
 	"WrapPlus.break_on_hyphens": false,
 	"added_words":
 	[
-		"Jpapabench",
+		"smartphones",
 		"smartphone",
 		"nano",
-		"reusability",
-		"smartphones",
-		"bluetooth",
-		"Wi",
-		"Fi",
-		"timestamping",
-		"interoperation",
-		"apps",
-		"ashmem",
-		"serializability",
-		"timeslice",
-		"safepoint",
 		"Dalvik",
-		"safepoints",
+		"app",
+		"ashmem",
+		"mmap",
 		"bytecode",
 		"bytecodes",
-		"app",
+		"v4.4",
+		"v2.2",
+		"Froyo",
 		"lifecycle",
-		"timeslices"
+		"classloader",
+		"healthcare",
+		"reusability",
+		"bluetooth",
+		"wearability"
 	],
-	"auto_complete": false,
+	"auto_complete": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -46,14 +41,13 @@
 		"env",
 		"env3"
 	],
-	"font_face": "Consolas",
+	"font_face": "Ubuntu Mono",
 	"font_options":
 	[
 		"subpixel_antialias",
-		"no_bold",
-		"directwrite"
+		"no_bold"
 	],
-	"font_size": 13.0,
+	"font_size": 17.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -62,10 +56,11 @@
 	],
 	"ignored_words":
 	[
-		"sinaro"
+		"v5"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
+	"open_pdf_on_load": false,
 	"rulers":
 	[
 		72,
