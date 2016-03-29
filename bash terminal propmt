@@ -1,0 +1,6 @@
+ #Gasss power terminal prompt,                                                   
+ #http://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/
+ #\033 is the C-style octal code for an escape character.                        
+ # \e[x;ym -- start color scheme with color pair x;y                             
+ #\e[m stop color scheme                                                         
+ export PS1='\e[1;34m\u@\h\e[m : \e[1;32m[ \w ]\e[m ->\n \\$ ' 
