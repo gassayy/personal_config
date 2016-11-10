@@ -1,3 +1,4 @@
+local naughty = require("naughty")
 local awful = require("awful")
 
 function gradient(min, max, val)
@@ -47,7 +48,7 @@ function os.capture(cmd, raw)
 end
 
 
-function delay_raise ()
+function delay_raise()
    -- 5 ms ages in computer time, but I won't notice it.
    local raise_timer = timer { timeout = 0.005 }
    raise_timer:connect_signal("timeout",
@@ -59,3 +60,8 @@ function delay_raise ()
    end)
    raise_timer:start()
 end
+
+function debug_print(where, msg)
+    naughty.notify { text = where ..":" .. msg, 
+                     timeout = 5, hover_timeout = 0.5 }
+end                     

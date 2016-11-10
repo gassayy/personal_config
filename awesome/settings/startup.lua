@@ -3,6 +3,8 @@ local awful = require("awful")
 
 run_once("nm-applet")
 run_once("gnome-keyring-daemon")
+run_once("unity-settings-daemon")
+run_once("/home/gassa/.dropbox-dist/dropboxd")
 --run_once("firefox")
 --run_once("pidgin")
 --run_once("synclient tapbutton1=1")

@@ -52,6 +52,7 @@ require("settings.menus")
 
 -- Default wibox stuff (gentoo config)
 require("myrc.mywidget")
+require("settings.myvolume")
 require("stock.wiboxrc")
 
 -- Key && mouse bindings
@@ -73,5 +74,4 @@ require("settings.startup")
 
 -- wallpaper snippet
 local mywp = require("settings.wallpaper")
-
 

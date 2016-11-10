@@ -11,17 +11,14 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      size_hints_honor = false } },
+        
         {
-                rule = { class = "Firefox"},
-                properties= { tag = tags[1][2] },
+                rule = { class = "Sublime_text"},
+                properties = { tag = tags[1][3], switchtotag = true },
         },
         {
-                rule = { class = "sublime_text"},
-                properties= { tag = tags[1][3] },
-        },
-        {
-                rule = { class = "eclipse"},
-                properties= { tag = tags[1][4] },
+                rule = { class = "Gvim"},
+                properties= { tag = tags[1][3], switchtotag = true },
         },
 }
 -- }}}

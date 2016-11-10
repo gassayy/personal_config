@@ -27,19 +27,24 @@ if screen.count() == 1 then
               }
               tags[1] = awful.tag(tags1_1.names, 1, tags1_1.layout)
 else
-
     tags2_1 = {
                names  = { "[terminal-1]", "[web-1]", "[work-1]", "[dev-1]" },
                layout = { layouts[2], layouts[2], layouts[2], layouts[2] }
               }
-
     tags2_2 = {
               names  = { "[terminal-2]", "[web-2]", "[work-2]", "[dev-2]" },
               layout = { layouts[2], layouts[2], layouts[2], layouts[2] }
                }
-
-              tags[1] = awful.tag(tags2_1.names, 1, tags2_1.layout)
-              tags[2] = awful.tag(tags2_2.names, 2, tags2_2.layout)
+    tags[1] = awful.tag(tags2_1.names, 1, tags2_1.layout)
+    tags[2] = awful.tag(tags2_2.names, 2, tags2_2.layout)
+    
+    if screen.count() == 3 then
+        tags2_3 = {
+                names  = { "[terminal-3]", "[web-3]", "[work-3]", "[dev-3]" },
+                layout = { layouts[2], layouts[2], layouts[2], layouts[2] }
+              }
+        tags[3] = awful.tag(tags2_3.names, 3, tags2_3.layout)
+    end
 end
 --- }}}
 

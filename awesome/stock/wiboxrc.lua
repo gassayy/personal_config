@@ -2,6 +2,7 @@ local awful = require("awful")
 local wibox = require("wibox")
 local vicious = require("vicious")
 
+
 -- {{{ Wibox
 -- Create a textclock widget
 mytextclock = awful.widget.textclock()
@@ -87,6 +88,7 @@ for s = 1, screen.count() do
     if s == 1 then right_layout:add(wibox.widget.systray()) end
     right_layout:add(batpct) 
     right_layout:add(mem)
+    right_layout:add(volume_widget)
     right_layout:add(mytextclock)
     right_layout:add(mylayoutbox[s])
 
@@ -99,5 +101,6 @@ for s = 1, screen.count() do
     mywibox[s]:set_widget(layout)
 end
 -- }}}
+
 
 
