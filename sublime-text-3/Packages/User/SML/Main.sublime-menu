@@ -1,0 +1,42 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [{
+                "caption": "SML",
+                "id": "SML",
+                "children": [
+                    {"command": "repl_open",
+                     "caption": "SML",
+                     "id": "repl_sml",
+                     "args": {
+                        "type": "subprocess",
+                        "encoding": "utf8",
+                        "cmd": ["/home/gassa/SML_ROOT/bin/sml"],
+                        "cwd": "$file_path",
+                        "external_id": "sml",
+                        "syntax": "Packages/SML (Standard ML)/sml.tmLanguage"
+                        }
+                    },
+                    {"command": "repl_open",
+                     "caption": "SML - Run Current File",
+                     "id": "repl_sml_run",
+                     "args": {
+                        "type": "subprocess",
+                        "encoding": "utf8",
+                        "cmd": ["/home/gassa/SML_ROOT/bin/sml", "$file_basename"],
+                        "cwd": "$file_path",
+                        "external_id": "sml",
+                        "syntax": "Packages/SML (Standard ML)/sml.tmLanguage"
+                        }
+                    }
+                ]
+            }]
+        }]
+    }
+]
