@@ -1,0 +1,190 @@
+" vimrc file, Gassa Yan
+
+set nocompatible                   "Use vim defaults
+
+filetype off
+set rtp+=~/.dotfiles/gassa_vim/bundle/Vundle.vim "set runtimepath
+
+"====================== Vundle plugins ========================================
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+"uber awesome syntax and errors highlighter
+Plugin 'Syntastic' 
+"aireline theme
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'bling/vim-bufferline'
+Plugin 'LaTeX-Box-Team/LaTeX-Box'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'Tabular'
+Plugin 'taglist.vim'
+
+if filereadable(expand('~/.vim/bundle/vimrc/plugins.vim'))
+  source ~/.vim/bundle/vimrc/plugins.vim
+endif
+
+call vundle#end()
+
+filetype plugin indent on
+
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just
+" :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; 
+" :PluginClean!     - append `!` to auto-approve removal
+
+"====================== Vim Airline theme =====================================
+let &t_Co=256
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#syntastic#enabled = 1
+"let g:airline_theme='molokai'
+
+" Enable aireline theme symbols
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.crypt = '🔒'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.notexists = '∄'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" display airline status bar
+set laststatus=2
+
+"==================== Vim general configurations = ============================
+set modelines=0
+syntax enable
+set nu
+set tabstop=4       " numbers of spaces of tab character
+set shiftwidth=4    " numbers of spaces to (auto)indent
+set showcmd         " display incomplete commands
+set hlsearch        " highlight searches
+"set incsearch       " do incremental searching
+set ruler           " show the cursor position all the time
+set visualbell t_vb=    " turn off error beep/flash
+set novisualbell    " turn off visual bell
+set nobackup        " do not keep a backup file
+set number          " show line numbers
+set autowrite      " auto saves changes when quitting and swiching buffer
+set expandtab      " tabs are converted to spaces, use only when required
+set sm             " show matching braces, somewhat annoying...
+"set nowrap        " don't wrap lines
+"set wrap
+set autoread "autoload file when a file is changed from the outside
+set foldcolumn=1   " add extra margin to left
+set encoding=utf8
+set ai             " auto indent
+set si             " smart indent
+set smarttab       " smart tab
+
+let mapleader = ","
+let g:mapleader = ","
+
+" :W sudo saves the file
+command W w !sudo tee % > /dev/null;
+
+if exists('+colorcolumn')
+  set colorcolumn=80
+else
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
+
+"================== Customized key binding ===================================
+"cmd [attr(one or more)] lhs rhs
+"{cmd} --':map', ':map!', ':nmap', ':vmap', ':imap', ':cmap', ':smap', ':xmap',
+"        ':omap', ':lmap', etc.
+"{attr} -- <buffer>, <silent>, <expr>, <script>, <unique> and <special>.
+"{lhs} left hand side, is a sequence of one or more keys that are being mapped.
+"{rhs} right hand side, is the sequence of keys that the {lhs} keys are mapped to.
+
+"example:
+"  map <F2> :echo 'Current time is ' . strftime('%c')<CR>
+"  map! <F3> a<C-R>=strftime('%c')<CR><Esc>
+"  nnoremap <silent> <F2> :lchdir %:p:h<CR>:pwd<CR>
+"
+"nmap - normal mode maps
+"imap - insert mode maps
+"vmap - visual and select mode maps
+"smap - select mode maps
+"xmap - visual mode maps
+"cmap - Display command-line mode maps
+"omap - Display operator pending mode maps
+"
+"<silent>: disble the visiblility of command execution
+"<expr>  : map command to invoke a Vim function and use the returned value as 
+"the key sequence to execute
+"
+"Key notation:
+""
+"Ctrl-KEY  -> <C-KEY>
+"Shit-KEY  -> <S-KEY>
+"Super-KEY -> <D-KEY>
+"Ctrl-I    -> TAB
+"Ctrl-[    -> ESC
+"Ctrl-M    -> Enter
+"Ctrl-H    -> Backspace <BS>
+"Enter     -> <CR>
+
+" Turn off highlight search
+map <silent> <C-N> :silent noh<CR>
+" Keyboard mapping for numeric keypad
+imap <Esc>OM <c-m>
+map <Esc>OM <c-m>
+imap <Esc>OP <nop>
+map <Esc>OP <nop>
+imap <Esc>OQ /
+map <Esc>OQ /
+imap <Esc>OR *
+map <Esc>OR *
+imap <Esc>OS -
+map <Esc>OS -
+
+imap <Esc>Ol +
+imap <Esc>Om -
+imap <Esc>On ,
+imap <Esc>Op 0
+imap <Esc>Oq 1
+imap <Esc>Or 2
+imap <Esc>Os 3
+imap <Esc>Ot 4
+imap <Esc>Ou 5
+imap <Esc>Ov 6
+imap <Esc>Ow 7
+imap <Esc>Ox 8
+imap <Esc>Oy 9
+imap <Esc>Oz 0
+
+" spell checking
+map <leader>sc :setlocal spell!<cr>
+" taglist
+map <F7> :TlistToggle<cr>
+" ctrlp
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" .vimrc edit configuration
+map <leader>ss :sp ~/.dotfiles/gassavim/gassavimrc<cr>     " edit my .vimrc file in a split
+map <leader>se :e ~/.dotfiles/gassavim/gassavimrc<cr>      " edit my .vimrc file
+map <leader>sr :source ~/.dotfiles/gassavim/gassavimrc<cr> " update .vimrc
+
+" ctags
+set tags=tags,./../tags,./../tags,./../../tags,./../../../tags,./../../../../tags,./../../../../../tags,./../../../../../../tags,./../../../../../../../tags,./../../../../../../../../tags
+
