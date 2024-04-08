@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/gassa/vim-backup'
+let g:netrw_dirhist_2='/home/gassa/.vim/bundle'
+let g:netrw_dirhist_3='/home/gassa/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_4='/home/gassa/paparazzi/sw/simulator/nps'
